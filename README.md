@@ -40,3 +40,9 @@ Methods that are under the DataCleaning class are:
 7. clean_json(data)
 8. standardise_phone_number(phone_number)
 where the arguments in each method are tables or data sources that need to be cleaned.
+
+
+
+#Creating Database Schema
+After different resources have collected data, they are now located in the PGadmin database. Tables have been updated and changed, to be fitted for further analyses. Most of the tables have changed the datatype of most of the columns, also 
+some cleaning has been done. Also, Primary keys and Foreign keys have been added to corresponding tables, in order that to make them fit for queries in different tables.
