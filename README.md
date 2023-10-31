@@ -1,4 +1,4 @@
-#Multinational-retail-data-centralisation
+# Multinational-retail-data-centralisation
 
 A company that sells various products across the world has data spread across different data sources and formats, making access and analysis difficult.
 This project aims to create a system that stores the current company data in a database so data can be accessed from one central location.
@@ -6,9 +6,9 @@ After data is located in one database, query the database to get up-to-date metr
 
 
 There are created three classes.
-1. DataExtractor: in it will be created methods that will extract data from different sources, such as CSV, API, and S3 bucket.
-2. DataConnector: in it will be created methods to connect and upload data into a database.
-3. DataCleaning: In it will be created methods that will clean the data to be ready for further analyses.
+1. DataExtractor: it will create methods that will extract data from different sources, such as CSV, API, and S3 bucket.
+2. DataConnector: it will create methods to connect and upload data into a database.
+3. DataCleaning: It will be created methods that will clean the data to be ready for further analyses.
 
 
 Methods created under the DataExtractor class are:
@@ -43,6 +43,11 @@ where the arguments in each method are tables or data sources that need to be cl
 
 
 
-#Creating Database Schema
+# Creating Database Schema
 After different resources have collected data, they are now located in the PGadmin database. Tables have been updated and changed, to be fitted for further analyses. Most of the tables have changed the datatype of most of the columns, also 
-some cleaning has been done. Also, Primary keys and Foreign keys have been added to corresponding tables, in order that to make them fit for queries in different tables.
+some cleaning has been done. Also, Primary keys and Foreign keys have been added to corresponding tables, so that to make them fit for queries in different tables.
+# Quering the data
+To answer some business questions, there needed to query of the data using different operations and aggregation. some of the business questions are: 
+1. What percentage of sales comes through each type of store?
+2. How quickly the company is making sales?
+that is been addressed in the file Quering_data.sql
